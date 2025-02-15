@@ -1,11 +1,10 @@
-import Image from "next/image";
-import page from "user"
+import Crud from './userDashboard/Crud'
 
 export default function Home() {
   return (
     <div>
       
-      <userDashboard />
+      <Crud/>
 
     </div>
   );
